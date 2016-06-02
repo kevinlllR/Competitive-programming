@@ -26,7 +26,6 @@ int solve(int x,int y,int *cont,int ant1x,int ant1y){
 	if(comparar(matrixn)){
 		return *cont;
 	}
-	cout<<"pasa"<<endl;
 	for (int i = 0; i < 8; ++i)
 	{	
 		
@@ -78,7 +77,6 @@ for (int i = 0; i < 5; ++i)
 	}
 	cout<<endl;
 }
-cout<<"Valores="<<indx<<" "<<indy;
 int cont=0;
 int res=solve(indx,indy,&cont,0,0);	
 if(res>10){
