@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #define MAXY 1000
 #define MAXX 1000
 using namespace std;
